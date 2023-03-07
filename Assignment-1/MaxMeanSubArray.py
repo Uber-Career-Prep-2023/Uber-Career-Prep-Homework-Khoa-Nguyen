@@ -23,3 +23,6 @@ print(max_mean_sub_array(nums3, chunk3)) #expected = 1
 nums4 = [1, 1, 1, 1, -1, -1, 2, -1, -1, 6]
 chunk4 = 5
 print(max_mean_sub_array(nums4, chunk4)) #expected = 1
+
+# Time Complexity = O(n)
+# Space Complexity = O(n)
