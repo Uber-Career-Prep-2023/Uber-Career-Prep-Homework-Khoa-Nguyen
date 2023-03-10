@@ -1,4 +1,4 @@
-#Two arrays two pointer
+#One-directional running computation/total
 
 def missing_integer(arr: list[int], n: int) -> int:
     for i in range(1,n+1):
