@@ -1,18 +1,11 @@
 #Two arrays two pointer
 
 def missing_integer(arr: list[int], n: int) -> int:
-    array2 = [i for i in range(1,n+1)]
-
-    for i in array2:
+    for i in range(1,n+1):
         if i not in arr:
             return i
 
-
-
-
-
-
-
+        
 
 print(missing_integer([1, 2, 3, 4, 6, 7], 7)) # expected = 5
 
