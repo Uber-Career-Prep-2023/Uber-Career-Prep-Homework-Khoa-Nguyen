@@ -14,7 +14,7 @@ def zero_sum_sub_arrays(arr: list[int]) -> int:
 
 input1 = [4, 5, 2, -1, -3, -3, 4, 6, -7]
 print(zero_sum_sub_arrays(input1))  # Expected = 2
-
+    
 input2 = [1, 8, 7, 3, 11, 9]
 print(zero_sum_sub_arrays(input2))  # Expected = 0
 
@@ -23,3 +23,4 @@ print(zero_sum_sub_arrays(input3))  # Expected = 2
 
 # Time Complexity = O(n^2)
 # Time Complexity = O(n)
+# Took around 25 minutes

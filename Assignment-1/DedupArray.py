@@ -19,3 +19,4 @@ print(de_up_array([1, 3, 4, 8, 10, 12]))  # Expected : [1, 3, 4, 8, 10, 12]
 
 # Time Complexity = O(n)
 # Space Complexity = O(n)
+# Took around 5 minutes

@@ -39,3 +39,4 @@ print(backspace_string_compare(input4_s1, input4_s2))  # Expected = False
 
 # Time Complexity O(n)
 # Space Complexity O(n)
+# 30 ish minutes
