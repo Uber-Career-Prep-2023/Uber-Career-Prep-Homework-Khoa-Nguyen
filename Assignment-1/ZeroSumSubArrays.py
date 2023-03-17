@@ -22,5 +22,5 @@ input3 = [8, -5, 0, -2, 3, -4]
 print(zero_sum_sub_arrays(input3))  # Expected = 2
 
 # Time Complexity = O(n^2)
-# Time Complexity = O(n)
+# Space Complexity = O(n)
 # Took around 25 minutes
