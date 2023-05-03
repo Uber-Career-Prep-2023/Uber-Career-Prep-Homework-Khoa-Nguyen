@@ -1,5 +1,6 @@
 # Time Complexity O(n)
-
+# Hash LinkedList Nodes
+# 10 minutes
 class Node:
     def __init__ (self, val=0, next=None):
         self.val = val

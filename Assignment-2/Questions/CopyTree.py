@@ -1,5 +1,6 @@
 # Time Complexity = O(n)
 # Method used Pre-order tree transversal
+# 30 Minutes
 
 class Node:
     def __init__(self, val):
