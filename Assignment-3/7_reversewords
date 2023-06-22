@@ -1,0 +1,16 @@
+# Method is basic python list slicing
+# Time took: 5 minutes
+
+#Time complexity: O(n)
+#Space complexit: O(n)
+
+def reverse(word):
+    new_word = word.split(" ")
+    new_word = new_word[::-1]
+    new_word = " ".join(new_word)
+    
+    return new_word
+
+
+print(reverse("Uber Career Prep")) #expected: "Prep Career Uber"
+print(reverse("Emma lives in Brooklyn, New York.")) #expected: "York. New Brooklyn, in lives Emma"
