@@ -60,6 +60,6 @@ max_heap.insert(3)
 max_heap.insert(1)
 max_heap.insert(4)
 
-print(max_heap.top())  # Output: 1
+print(max_heap.top())  # Output: 4
 max_heap.remove()
 print(max_heap.top())  # Output: 3

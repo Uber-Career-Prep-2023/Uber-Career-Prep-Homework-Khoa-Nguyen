@@ -1,0 +1,33 @@
+import heapq
+
+class PQ:
+
+    def __init__(self):
+        self.heap = []
+
+
+    def top(self):
+        if self.heap:
+            return self.heap[0]
+        
+        return None
+
+    def insert(self, x, string):
+        return heapq.heappush(self.heap,(x, string))
+
+    def remove(self):
+        if self.heap:
+            return heapq.heappop(self.heap)
+        return None
+
+pq = PQ()
+
+
+pq.insert(2, "apple")
+pq.insert(4, "banana")
+pq.insert(1, "orange")
+
+print(pq.top()) #expected: (1, 'orange')
+
+pq.remove()
+print(pq.heap) #expected: [(2, 'apple'), (4, 'banana')]

@@ -1,6 +1,5 @@
 # Used basic python bin() function to convert to binary
 # This problem took 5 minutes
-
 # Space Complexity: O(n)
 # Time Complexity: O(n)
 

@@ -10,7 +10,7 @@ def create_adjacency_set(edges):
 
     return dict(adjacency)
 
-print(create_adjacency_set([(1, 2), (2, 3), (1, 3), (3, 2), (2, 0)]))
+# print(create_adjacency_set([(1, 2), (2, 3), (1, 3), (3, 2), (2, 0)]))
 
 def bfs(start, graph, target) -> bool:
     queue = [start]
@@ -66,10 +66,10 @@ def topological_sort(graph) -> list[int]:
 
 
 
-graph = create_adjacency_set([(1, 2), (2, 3), (1, 3), (3, 2), (2, 0)])
-print(bfs(1,graph, 0)) #Expected True
-print(dfs(1,graph, 0)) #Expected True
-print(topological_sort(graph))
+# graph = create_adjacency_set([(1, 2), (2, 3), (1, 3), (3, 2), (2, 0)])
+# print(bfs(1,graph, 0)) #Expected True
+# print(dfs(1,graph, 0)) #Expected True
+# print(topological_sort(graph))
 
 
 
